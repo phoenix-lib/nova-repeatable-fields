@@ -109,7 +109,9 @@
 			},
 
 			deleteRow(index) {
-				this.rows.splice(index, 1);
+			   if(this.rows.length > 1){
+			       this.rows.splice(index, 1);
+			   }
 			}
 		},
 
