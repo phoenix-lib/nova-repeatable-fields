@@ -48,6 +48,10 @@
                 return this.attribute
             },
 
+            validationKey() {
+                return this.attribute;
+            },
+
             placeholder() {
                 return !this.subField.placeholder
                     ? this.__('Choose an option')

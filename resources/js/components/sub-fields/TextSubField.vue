@@ -30,6 +30,10 @@
             fieldAttribute() {
                 return this.attribute
             },
+
+            validationKey() {
+                return this.attribute;
+            }
         },
 
         props: [
